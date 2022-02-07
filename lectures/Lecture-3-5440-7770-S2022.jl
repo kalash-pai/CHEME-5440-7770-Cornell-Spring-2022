@@ -180,6 +180,9 @@ md"""
 
 """
 
+# ╔═╡ 0e46d5ca-197f-47ca-a075-7281e3087460
+TableOfContents(title="📚 Table of Contents", indent=true, depth=5, aside=true)
+
 # ╔═╡ 907af081-4a01-4a51-bda9-3a34295f9208
 function ingredients(path::String)
 	
@@ -503,9 +506,6 @@ begin
 	# write the table -
 	pretty_table(HTML, state_table₂; header=state_table_header_row, tf=tf_html_minimalist)
 end
-
-# ╔═╡ 0e46d5ca-197f-47ca-a075-7281e3087460
-TableOfContents(title="📚 Table of Contents", indent=true, depth=5, aside=true)
 
 # ╔═╡ d201abce-202c-44f6-98a3-67e47c2a99f4
 html"""
